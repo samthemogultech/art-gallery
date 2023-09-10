@@ -1,0 +1,57 @@
+.header-and-search {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header-and-search h2 {
+    font-size: 70px;
+    margin: 30px;
+}
+.header-and-search p {
+    font-size: 1.5rem;
+    margin: 30px;
+}
+.header-and-search .input {
+    background: var(--dark-ash-text);
+    max-width: 40vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.header-and-search .input input {
+    background: transparent;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    font-family: var(--font-general);
+}
+.header-and-search .input button {
+    background: var(--background-dark-container);
+    color: var(--bright);
+    outline: none;
+    transition: 0.2s;
+}
+.header-and-search .input button:hover {
+    background: black;
+    cursor: pointer;
+}
+
+/*-----------------------------*\
+Responsive Design
+\*-----------------------------*/
+
+/* Mobile Phones View */
+@media only screen and (max-width:600px) {
+    .header-and-search {
+        padding-top: 100px;
+    }
+    .header-and-search h2 {
+        font-size: 3rem;
+    }
+    .header-and-search p {
+        font-size: 1.2rem;
+    }
+    .header-and-search .input {
+        max-width: 90vw;
+        grid-template-columns: 85% 15%;
+    }
+}

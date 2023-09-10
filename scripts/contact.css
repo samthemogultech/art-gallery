@@ -1,0 +1,95 @@
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h2 {
+    font-size: 70px;
+    margin: 30px;
+}
+.header p {
+    font-size: 1.5rem;
+    margin: 30px;
+}
+
+/* Contact Section */
+.contact-con {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.contact-con img {
+    width: 600px;
+}
+
+.contact-con .form > p {
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+.contact-con .form input {
+    background: var(--dark-ash-text);
+    color: var(--background-dark);
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    font-family: var(--font-general);
+}
+.contact-con .form .name-sec input {
+    width: 49%;
+}
+.contact-con .form .name-sec input:first-child {
+    margin-right: 9px;
+}
+.contact-con .form textarea {
+    background: var(--dark-ash-text);
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+    padding: 10px;
+    font-family: var(--font-general);
+}
+.contact-con .form button {
+    background: transparent;
+    font-family: var(--font-general);
+}
+.contact-con .form button:hover {
+    background: var(--background-dark);
+}
+
+/*-----------------------------*\
+Responsive Design
+\*-----------------------------*/
+
+/* Mobile Phones View */
+@media only screen and (max-width:600px) {
+    .header {
+        padding-top: 100px;
+    }
+    .header h2 {
+        font-size: 3rem;
+    }
+    .header p {
+        font-size: 1.2rem;
+    }
+
+    /* Contact Section */
+    .contact-con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+    }
+    .contact-con img {
+        width: 100%;
+    }
+
+    .contact-con .form > p {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    .contact-con .form .name-sec input {
+        width: 100%;
+    }
+    
+    
+}

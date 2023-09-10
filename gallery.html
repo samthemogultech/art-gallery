@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/peak-logo-lone.png" type="image/x-icon">
+    <link rel="stylesheet" href="scripts/home.css">
+    <link rel="stylesheet" href="scripts/gallery.css">
+    <script src="https://kit.fontawesome.com/3a975e69cb.js" crossorigin="anonymous"></script>
+    <title>PeakAnArt - Gallery</title>
+</head>
+<body>
+     <!-- Navigation Menu -->
+     <nav id="navBar1">
+      <img class="logo" src="assets/peak-logo.png" alt="">
+      <ul class="nav-links">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="exhibition.html">EXHIBITIONS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <button onclick="togglebtn()" class="toggle-nav"><i class="fa-solid fa-bars"></i></button>
+   </nav>
+     <!-- Header And Search -->
+
+     <section>
+        <div class="header-and-search">
+            <h2>Gallery</h2>
+            <p>Step into a world of boundless creativity, where artistry takes center stage.</p>
+            <div class="input"><input onchange="Search()" id="search"  placeholder="Search for an art..." type="text"><button id="sub-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+        </div>
+     </section>
+
+     <!-- Gallery Section -->
+     <section>
+        <div class="gallery-con">
+            <div class="column">
+                <div id="i-1" class="image-item">
+                    <img src="assets/1.jpg" alt="Ancient flower vase mural art">
+                    <div class="overlay"><span>Ancient flower vase mural art</span></div>
+                  </div>
+                  <div id="i-2" class="image-item">
+                    <img src="assets/2.jpg" alt="Wood Wire Mats">
+                    <div class="overlay"><span>Wood Wire Mats</span></div>
+                  </div>
+                  <div id="i-3" class="image-item">
+                    <img src="assets/4.jpg" alt="Purple imaginary painting">
+                    <div class="overlay"><span>Purple imaginary painting</span></div>
+                  </div>
+                  <div id="i-4" class="image-item">
+                    <img src="assets/5.jpg" alt="Blue imaginary painting">
+                    <div class="overlay"><span>Blue imaginary painting</span></div>
+                  </div>
+            </div>
+            <div  class="column">
+                <div id="i-5" class="image-item">
+                    <img src="assets/8.jpg" alt="Flower woman painting">
+                    <div class="overlay"><span>Flower woman painting</span></div>
+                  </div>
+                  <div id="i-6" class="image-item">
+                    <img src="assets/10.jpg" alt="Ceiling mural art">
+                    <div class="overlay"><span>Ceiling mural art</span></div>
+                  </div>
+                  <div id="i-7" class="image-item">
+                    <img src="assets/11.jpg" alt="Wood sculpture">
+                    <div class="overlay"><span>Wood sculpture</span></div>
+                  </div>
+                  <div id="i-8" class="image-item">
+                    <img src="assets/12.jpg" alt="Museum painting">
+                    <div class="overlay"><span>Museum painting</span></div>
+                  </div>
+            </div>
+            <div class="column">
+                <div id="i-9" class="image-item">
+                    <img src="assets/20.jpg" alt="Brown landscape painting">
+                    <div class="overlay"><span>Brown landscape painting</span></div>
+                  </div>
+                  <div id="i-10" class="image-item">
+                    <img src="assets/18.jpg" alt="Ancient figure head sculpture">
+                    <div class="overlay"><span>Ancient figure head sculpture</span></div>
+                  </div>
+                  <div id="i-11" class="image-item">
+                    <img src="assets/19.jpg" alt="Purple canvas painting">
+                    <div class="overlay"><span>Purple canvas painting</span></div>
+                  </div>
+                  <div id="i-12" class="image-item">
+                    <img src="assets/16.jpg" alt="Jewish synagogue painting">
+                    <div class="overlay"><span>Jewish synagogue painting</span></div>
+                  </div>
+            </div>
+            <div class="column">
+                <div id="i-13" class="image-item">
+                    <img src="assets/13.jpg" alt="Leaf vector art painting">
+                    <div class="overlay"><span>Leaf vector art painting</span></div>
+                  </div>
+                  <div id="i-14" class="image-item">
+                    <img src="assets/14.jpg" alt="Young woman painting on wall">
+                    <div class="overlay"><span>Young woman painting on wall</span></div>
+                  </div>
+                  <div id="i-15" class="image-item">
+                    <img src="assets/15.jpg" alt="Ceramic head sculpture">
+                    <div class="overlay"><span>Ceramic head sculpture</span></div>
+                  </div>
+                  <div id="i-16" class="image-item">
+                    <img src="assets/17.jpg" alt="Ancient Bathsheba lady sculpture">
+                    <div class="overlay"><span>Ancient Bathsheba lady sculpture</span></div>
+                  </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Footer -->
+     <footer>
+        <div class="navigation-con">
+            <img src="assets/peak-logo-white.png" alt="" class="logo">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="exhibition.html">EXHIBITIONS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="footer-gallery-cta">
+                <h2 class="add-text">Dive into our <br>world of art</h2>
+            <a class="btn footer-btn" href="gallery.html">SEE GALLERY</a>
+            </div>
+        </div>
+        <div class="socials-con">
+            <p>&copy;PEAKANART 2023</p>
+            <ul>
+                <li><a href="www.facebook.com">FB</a></li>
+                <li><a href="www.twitter.com">TW</a></li>
+                <li><a href="www.instagram.com">IN</a></li>
+                <li><a href="www.linkedin.com">LN</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="scripts/gallery.js"></script>
+</body>
+</html>
